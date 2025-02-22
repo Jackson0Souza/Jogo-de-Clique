@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Jogo de Clique</title>
+</head>
+<body>
+
+    <div id="titulo">Contador dinâmico</div> 
+    <div id="observacao">*Obs: Clique no botão "Iniciar" e, depois, clique no botão "Clique!" o mais rápido possível. A cada clique, sua pontuação aumenta!</div> 
+    <div id="jogo">
+        <div id="tempo">Tempo: 30s</div>
+        <button id="iniciarBotao" onclick="iniciarJogo()">Iniciar</button> 
+        <button id="botao" onclick="clicar()" style="display: none;">Clique!</button> 
+        <div id="pontuacao">Pontuação: 0</div>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="/script/script.js"></script>
+</body>
+</html>
