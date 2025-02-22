@@ -10,7 +10,7 @@ html, body {
     justify-content: center;
     align-items: center;
     font-family: 'Arial', sans-serif;
-    background: #1e2a36; /* Fundo mais profundo e sofisticado */
+    background: #1e2a36;
     color: white;
     flex-direction: column;
 }
@@ -18,14 +18,14 @@ html, body {
 #titulo {
     font-size: 48px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.6); /* Título mais suave */
+    color: rgba(255, 255, 255, 0.6); 
     margin-bottom: 20px;
     text-align: center;
 }
 
 #observacao {
     font-size: 18px;
-    color: #58b7d1; /* Azul suave */
+    color: #58b7d1; 
     margin-bottom: 20px;
     text-align: center;
     font-style: italic;
@@ -37,7 +37,7 @@ html, body {
 #jogo {
     text-align: center;
     padding: 40px;
-    background-color: rgba(26, 32, 44, 0.8); /* Fundo escuro com transparência suave */
+    background-color: rgba(26, 32, 44, 0.8);
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
     max-width: 90%;
@@ -46,7 +46,7 @@ html, body {
 #botao, #iniciarBotao {
     width: 180px;
     height: 80px;
-    background: #3b6e8c; /* Azul mais fechado */
+    background: #3b6e8c;
     border: none;
     font-size: 22px;
     color: white;
@@ -58,13 +58,13 @@ html, body {
 }
 
 #botao:hover, #iniciarBotao:hover {
-    background: #4e8ab8; /* Azul mais claro */
+    background: #4e8ab8; 
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 #iniciarBotao {
-    background: #e67e22; /* Laranja vibrante para o botão iniciar */
+    background: #e67e22;
     font-weight: bold;
     animation: pulsar 1.5s infinite;
     margin-top: 18px;
@@ -95,7 +95,7 @@ html, body {
     display: none;
     font-size: 28px;
     margin-top: 20px;
-    color: #f39c12; /* Laranja dourado para resultado */
+    color: #f39c12; 
     font-weight: 600;
 }
 
